@@ -1,12 +1,14 @@
-# Graduation project of the course FD3 "Development web-applications with React"
-# Online wine store "Nevinny"
+# Wine shop
+**To view the project [click here](https://wine-shop-andreiburko.vercel.app/).**
 
-For prepearing the app:
-open folder with json-file, then run
-### `npm i`
+I created this project while learning React.
 
-For run this app:
-### `npm start`
+Technologies used in the project:
 
-For build the app for production:
-### `npm run build`
+- React;
+- JavaScript;
+- Firebase;
+- Redux;
+- React-router;
+- CSS;
+- HTML.
