@@ -29,7 +29,7 @@ function CartWineItem( {amount, item} ) {
   };
 
   function deleteItem(event) {
-    event.nativeEvent.path[4].classList.add("deleted-item");
+    event.target.parentElement.parentElement.parentElement.parentElement.classList.add("deleted-item");
     setTimeout( () => {
       dispatch(deleteItemFromCart(item.id));
     }, 500);
