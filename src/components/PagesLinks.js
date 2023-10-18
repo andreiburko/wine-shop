@@ -15,11 +15,11 @@ function PagesLinks() {
 
   return (
     <div className="pages-links-block">
-      <NavLink to="/" end className={getLinkClass}>Все вина</NavLink>
-      <NavLink to="/italy" className={getLinkClass}>Вина Италии</NavLink>
-      <NavLink to="/spain" className={getLinkClass}>Вина Испании</NavLink>
-      <NavLink to="/france" className={getLinkClass}>Вина Франции</NavLink>
-      <NavLink to="/new-world" className={getLinkClass}>Вина Нового Света</NavLink>
+      <NavLink to="/" end className={getLinkClass}>All wines</NavLink>
+      <NavLink to="/italy" className={getLinkClass}>Wine from Italy</NavLink>
+      <NavLink to="/spain" className={getLinkClass}>Wine from Spain</NavLink>
+      <NavLink to="/france" className={getLinkClass}>Wine from France</NavLink>
+      <NavLink to="/new-world" className={getLinkClass}>New World Wine</NavLink>
     </div>
   );
 }

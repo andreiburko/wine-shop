@@ -52,31 +52,31 @@ function CartResultBlock() {
         <div className="cart-result-block">
           <div className="cart-result-block-info">
             <p className="cart-result-block-title">
-              Итого:
+              Total:
               <span> {totalAmount.toFixed(2)} &#8364;</span>
             </p>
             { (totalAmount < minOrder) && 
               <p className="cart-result-block-par">
-                До бесплатной доставки не хватает:
+                Not enough to get free shipping:
                 <span> {freeDeliveryAmount.toFixed(2)} &#8364;</span>
               </p>
             }
           </div>
-          <input className="cart-result-block-btn" type="button" value="Оформить заказ" onClick={sendOrder} />
+          <input className="cart-result-block-btn" type="button" value="Checkout" onClick={sendOrder} />
         </div>
       }
 
       { (sendedOrder) &&
-        <p className="cart-result-block-response">Спасибо, Ваш заказ принят!</p>
+        <p className="cart-result-block-response">Thank you, your order has been accepted!</p>
       }
 
       { (cartItems.length === 0 && !sendedOrder) &&
         <div className="cart-result-empty">
           <div className="cart-result-empty-img-block"></div>
           <h2 className="cart-result-empty-title">
-            корзина пустая
+            cart empty
           </h2>
-          <NavLink to="/" className="cart-result-empty-link">Выбрать вино</NavLink>
+          <NavLink to="/" className="cart-result-empty-link">Choose wine</NavLink>
         </div>
       }
     </div>

@@ -8,16 +8,16 @@ function WineShopBanner() {
       <div className="banner-shadow-block">
         <div className="banner-text-wrap">
           <div className="banner-title-text">
-            Огромный выбор вина<br />
-            со всего мира
+          Huge selection of wine<br />
+          from all over the world
             <div className="banner-title-shadow-text">
-              Огромный выбор вина<br />
-              со всего мира
+            Huge selection of wine<br />
+            from all over the world
             </div>
           </div>
           <div className="banner-slogan-shadow-block"></div>
           <div className="banner-slogan-block">
-            <span className="banner-slogan-text">Цены приятно удивят!</span>
+            <span className="banner-slogan-text">Prices will surprise you!</span>
           </div>
         </div>
       </div>

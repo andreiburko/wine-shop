@@ -114,22 +114,22 @@ function WineShop() {
     setCurrentPage(1);
     switch (filterText) {
       case "red":
-        setWinesArr(initialWinesArr.filter( v => v.type.toLowerCase() === "красное"));
+        setWinesArr(initialWinesArr.filter( v => v.type.toLowerCase() === "red"));
         break;
       case "white":
-        setWinesArr(initialWinesArr.filter( v => v.type.toLowerCase() === "белое"));
+        setWinesArr(initialWinesArr.filter( v => v.type.toLowerCase() === "white"));
         break;
       case "dry":
-        setWinesArr(initialWinesArr.filter( v => v.sugar.toLowerCase() === "сухое"));
+        setWinesArr(initialWinesArr.filter( v => v.sugar.toLowerCase() === "dry"));
         break;
       case "semi-dry":
-        setWinesArr(initialWinesArr.filter( v => v.sugar.toLowerCase() === "полусухое"));
+        setWinesArr(initialWinesArr.filter( v => v.sugar.toLowerCase() === "semi-dry"));
         break;
       case "semi-sweet":
-        setWinesArr(initialWinesArr.filter( v => v.sugar.toLowerCase() === "полусладкое"));
+        setWinesArr(initialWinesArr.filter( v => v.sugar.toLowerCase() === "semi-sweet"));
         break;
       case "sweet":
-        setWinesArr(initialWinesArr.filter( v => v.sugar.toLowerCase() === "сладкое"));
+        setWinesArr(initialWinesArr.filter( v => v.sugar.toLowerCase() === "sweet"));
         break;
       case "all":
         setWinesArr(initialWinesArr);

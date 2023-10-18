@@ -43,8 +43,8 @@ function CartWineItem( {amount, item} ) {
       <div className="cart-item-wrap">
         <div className="cart-item-info-block">
           <h2 className="cart-item-title">{item.name}</h2>
-          <p className="cart-item-par">Тип: {item.type}, {item.sugar}</p>
-          <p className="cart-item-par">Регион: {item.region.join(", ")}</p>
+          <p className="cart-item-par">Type: {item.type}, {item.sugar}</p>
+          <p className="cart-item-par">Region: {item.region.join(", ")}</p>
         </div>
         <div className="cart-item-btns-wrap">
           <div className="cart-item-count-block">

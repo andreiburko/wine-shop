@@ -19,7 +19,7 @@ function WineShopHeader() {
 
     return (
       <header>
-        <NavLink to="/" className="header-title">Невинный</NavLink>
+        <NavLink to="/" className="header-title">Velvet</NavLink>
 
         <div className="header-contacts-block">
           <div className="header-contacts-icon-block">
@@ -39,15 +39,15 @@ function WineShopHeader() {
             </div>
           </div>
           <p className="header-contacts-title">
-            Контакты:
+            Call Us: 🇲🇿
           </p>
-          <a className="header-contacts-phone" href="tel: +375291111111">+375 (29) 111-11-11</a>
+          <a className="header-contacts-phone" href="tel: +258875144228">+258 875-144-228</a>
         </div>
 
         <NavLink to="/cart" className="header-cart-link">
           <div className="header-cart-block">
             <div className="header-cart-text">
-              Корзина
+              Cart
             </div>
             <div className="header-cart-line"></div>
             <div className="header-cart-icon">

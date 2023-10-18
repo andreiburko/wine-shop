@@ -38,34 +38,34 @@ function WineControls( {cbChangedFilter, cbChangedSort, cbChangeOutputType} ) {
     <div className="filter-and-sort-block">
       <div className="filter-select-wrap">
         <select name="filter-select" value={filterValue} onChange={switchFilter}>
-          <option value="all">Без фильтра</option>
-          <optgroup label="Цвет">
-            <option value="red">Красное вино</option>
-            <option value="white">Белое вино</option>
+          <option value="all">No filter</option>
+          <optgroup label="Flavour">
+            <option value="red">Red wine</option>
+            <option value="white">White wine</option>
           </optgroup>
-          <optgroup label="Тип">
-            <option value="dry">Сухое</option>
-            <option value="semi-dry">Полусухое</option>
-            <option value="semi-sweet">Полусладкое</option>
-            <option value="sweet">Сладкое</option>
+          <optgroup label="Type">
+            <option value="dry">Dry</option>
+            <option value="semi-dry">Semi-dry</option>
+            <option value="semi-sweet">Semi-sweet</option>
+            <option value="sweet">Sweet</option>
           </optgroup>
         </select>
       </div>
 
       <div className="sort-select-wrap">
         <select name="sort-select" value={sortValue} onChange={switchSort}>
-          <option value="all">Без сортировки</option>
-          <option value="raiting-decrease">По убыванию рейтинга</option>
-          <option value="raiting-increase">По возрастанию рейтинга</option>
-          <option value="price-decrease">По убыванию цены</option>
-          <option value="price-increase">По возрастанию цены</option>
+          <option value="all">No sorting</option>
+          <option value="raiting-decrease">Descending rate</option>
+          <option value="raiting-increase">Ascending rate</option>
+          <option value="price-decrease">Descending price</option>
+          <option value="price-increase">Ascending price</option>
         </select>
       </div>
 
       <div className="show-pages-wrap">
         <select name="show-pages-select" value={isShowPages} onChange={switchIsShowPages}>
-          <option value="all">Показать весь список</option>
-          <option value="page">Показать страницами</option>
+          <option value="page">Show by pages</option>
+          <option value="all">Show full list</option>
         </select>
       </div>
     </div>

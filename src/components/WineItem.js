@@ -80,7 +80,7 @@ function WineItem( {item} ) {
                   {item.price} &#8364;
                 </p>
                 <div className="item-controls-btn" onClick={productSelected}>
-                  В корзину
+                  Add to cart
                   <div className="item-controls-icon"></div>
                 </div>
               </div>

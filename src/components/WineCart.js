@@ -35,10 +35,10 @@ function WineCart() {
       <PagesLinks />
 
       <div className="cart-header">
-        <NavLink to="/" className="cart-link">&#65124; к выбору вина</NavLink>
+        <NavLink to="/" className="cart-link">&#65124; choose wine</NavLink>
         <div className="cart-decoration-block"></div>
-        <h1 className="cart-title">Корзина</h1>
-        <span className="cart-title-info">(товаров в корзине: {itemsAmount})</span>
+        <h1 className="cart-title">Cart</h1>
+        <span className="cart-title-info">(items in cart: {itemsAmount})</span>
       </div>
 
       <div className="cart-items-block">

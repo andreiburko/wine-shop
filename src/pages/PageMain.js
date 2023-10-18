@@ -20,8 +20,8 @@ export const PageMain = ( {cbChangedFilter, cbChangedSort, cbChangeOutputType, l
         />
 
         <main className="main-items-block">
-          { (loadState === 0) && <p className="main-inf-text">Нет информации о товарах</p> }
-          { (loadState === 1) && <p className="main-inf-text">Загрузка информации...</p> }
+          { (loadState === 0) && <p className="main-inf-text">No product information</p> }
+          { (loadState === 1) && <p className="main-inf-text">Loading information...</p> }
           { (loadState === 2) &&  wineItemCode }
           { (loadState === 3) && <p className="main-inf-text">Error: {loadError}</p> }
         </main>
