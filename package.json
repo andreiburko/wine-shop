@@ -1,8 +1,8 @@
 {
   "name": "nevinny-store",
   "version": "1.0.0",
-  "description": "FD3 project - Nevinny store",
-  "author": "Andrei Burko",
+  "description": "Velvet Essence - Online Wine Store",
+  "author": "Manuel Dinis Júnior",
   "license": "Andrei Burko",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.1",
