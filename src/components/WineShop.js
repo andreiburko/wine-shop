@@ -71,7 +71,7 @@ function WineShop() {
   };
 
   function getSpainWines() {
-    const spainWines = wines.initialData.filter( v => v.region[0].toLowerCase() === "испания");
+    const spainWines = wines.initialData.filter( v => v.region[0].toLowerCase() === "spain");
     dispatch(setPageWines(spainWines));
   };
 
