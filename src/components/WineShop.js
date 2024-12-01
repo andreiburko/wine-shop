@@ -66,7 +66,7 @@ function WineShop() {
   );
 
   function getItalyWines() {
-    const italyWines = wines.initialData.filter( v => v.region[0].toLowerCase() === "spain");
+    const italyWines = wines.initialData.filter( v => v.region[0].toLowerCase() === "италия");
     dispatch(setPageWines(italyWines));
   };
 
