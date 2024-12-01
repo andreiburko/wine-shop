@@ -114,7 +114,7 @@ function WineShop() {
     setCurrentPage(1);
     switch (filterText) {
       case "red":
-        setWinesArr(initialWinesArr.filter( v => v.type.toLowerCase() === "red"));
+        setWinesArr(initialWinesArr.filter( v => v.type.toLowerCase() === "red" || v.type.toLowerCase() === "port"));
         break;
       case "white":
         setWinesArr(initialWinesArr.filter( v => v.type.toLowerCase() === "white"));
