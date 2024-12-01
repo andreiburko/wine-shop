@@ -76,7 +76,7 @@ function WineShop() {
   };
 
   function getFranceWines() {
-    const franceWines = wines.initialData.filter( v => v.region[0].toLowerCase() === "франция");
+    const franceWines = wines.initialData.filter( v => v.region[0].toLowerCase() === "france");
     dispatch(setPageWines(franceWines));
   };
 
