@@ -81,7 +81,7 @@ function WineShop() {
   };
 
   function getNewWorldWines() {
-    const countries = ["аpгентина", "австралия", "чили", "новая зеландия", "юар", "сша"];
+    const countries = ["argentina", "australia", "chile", "new zealand", "south africa", "usa"];
     const newWorldWines = [];
     for (let i = 0; i < wines.initialData.length; i++) {
       for (let j = 0; j < countries.length; j++) {
