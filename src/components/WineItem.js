@@ -66,7 +66,7 @@ function WineItem( {item} ) {
           <h2 className="item-description-title">{item.name}</h2>
           <div className="item-description-par">
             <div className="item-description-icon"></div>
-            {item.type} {item.sugar}
+            {item.type} | {item.sugar}
           </div>
           <div className="item-description-par">
             <div className="item-description-icon"></div>
