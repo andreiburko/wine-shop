@@ -117,7 +117,7 @@ function WineShop() {
         setWinesArr(initialWinesArr.filter( v => v.type.toLowerCase() === "red" || v.type.toLowerCase() === "port"));
         break;
       case "white":
-        setWinesArr(initialWinesArr.filter( v => v.type.toLowerCase() === "white"));
+        setWinesArr(initialWinesArr.filter( v => v.type.toLowerCase() === "white" || v.type.toLowerCase() === "jerez"));
         break;
       case "dry":
         setWinesArr(initialWinesArr.filter( v => v.sugar.toLowerCase() === "dry"));
