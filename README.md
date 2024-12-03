@@ -1,5 +1,5 @@
 # Wine shop
-**To view the project [click here](https://wine-shop-andreiburko.vercel.app/).**
+**To view the project [click here](https://wine-shop-project.vercel.app/).**
 
 I created this project while learning React.
 
